@@ -417,6 +417,107 @@ body.locked {
   bottom: 0;
 }
 
+.experts {
+  padding-top: 81px;
+  background-color: #121212;
+  padding-bottom: 59px;
+}
+
+.experts__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.experts__img {
+  margin-right: 84px;
+}
+
+.experts__text {
+  position: relative;
+}
+
+.experts__title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31.4245px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 19px;
+}
+
+.experts__title span {
+  color: #B9FF66;
+}
+
+.experts__subtitle {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.8547px;
+  line-height: 140%;
+  color: #868686;
+  margin-bottom: 43px;
+  width: 440.73px;
+}
+
+.experts__name {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.5698px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+}
+
+.experts__whois {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5698px;
+  line-height: 15px;
+  color: #666666;
+}
+
+.experts__figures1 {
+  width: 31.42px;
+  height: 3.14px;
+  margin-right: 6px;
+  background: #B9FF66;
+  position: absolute;
+  right: 11%;
+  bottom: 34%;
+}
+
+.experts__figures3 {
+  width: 12.57px;
+  height: 3.14px;
+  background: #262626;
+  position: absolute;
+  right: 8%;
+  bottom: 34%;
+}
+
+.experts__figures2 {
+  width: 12.57px;
+  height: 3.14px;
+  background: #262626;
+  position: absolute;
+  right: 4%;
+  bottom: 34%;
+}
+
+.experts__figures {
+  width: 12.57px;
+  height: 3.14px;
+  background: #262626;
+  position: absolute;
+  right: 0;
+  bottom: 34%;
+}
+
 @media (max-width: 1449.98px) {
   .container {
     max-width: 1200px;
