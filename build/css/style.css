@@ -674,6 +674,83 @@ body.locked {
   color: #868686;
 }
 
+.newsletter {
+  padding-top: 61px;
+  background-color: #121212;
+  padding-bottom: 61px;
+}
+
+.newsletter__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newsletter__title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31.4245px;
+  line-height: 39px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.newsletter__subtitle {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.7123px;
+  line-height: 140%;
+  color: #666666;
+}
+
+.newsletter__input {
+  border-bottom: 1.57123px solid #262626;
+  padding: 9.42736px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.newsletter__email {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.7123px;
+  line-height: 140%;
+  color: #666666;
+  background-color: transparent;
+}
+
+.newsletter__btn {
+  padding: 9.42736px 12.5698px;
+  background: #B9FF66;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.9986px;
+  line-height: 13px;
+  letter-spacing: 0.08em;
+  color: #121212;
+}
+
 @media (max-width: 1449.98px) {
   .container {
     max-width: 1200px;
