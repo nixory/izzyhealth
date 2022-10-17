@@ -15,6 +15,7 @@
         color: black
     &__links
         display: flex
+
         & a
             font-family: 'Urbanist'
             font-style: normal
@@ -23,4 +24,16 @@
             line-height: 15px
             color: #121212
             margin-left: 47px
-    
+            &:hover
+                text-decoration: underline
+    &__btn
+        &:hover
+
+            background: #9ed45b
+        &-o
+            &:hover
+                filter: brightness(90%)
+    &__morebtn
+        display: none
+    &__exitbtn
+        display: none

@@ -8,7 +8,7 @@
         justify-content: space-between
     &__info
         max-width: 226.26px
-        margin-right: 54px
+        margin-right: 0
         margin-bottom: 43px
     &__logo
         font-family: 'Clash Display'
@@ -37,10 +37,13 @@
         letter-spacing: 0.08em
         text-transform: uppercase
         color: #121212
+        &:hover
+            filter: brightness(80%)
     &__links
         display: flex
     &__link
         margin-left: 125px
+
         &-name
             font-family: 'Clash Display'
             font-style: normal
@@ -58,13 +61,14 @@
             line-height: 15px
             margin-bottom: 12.57px
             color: #868686
-
+            &:hover
+                text-decoration: underline
             &:last-child
                 margin-bottom: 0
             & a
                 color: #868686
     &__hr
-        width: 879.89px
+        max-width: 879.89px
         height: 0px
         margin: 0 auto
         border: 0.785613px solid #262626

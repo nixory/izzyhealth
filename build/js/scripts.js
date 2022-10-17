@@ -76,6 +76,15 @@ for (a = 0; a <= slider.length; a++) {
   
 }
 
+$('img.header__morebtn').on('click', function(){
+  $('ul.header__links').addClass("header__links-active")
+  $('img.header__exitbtn').addClass("header__exitbtn-active")
+})
+
+$('img.header__exitbtn').on('click', function(){
+  $('ul.header__links').removeClass("header__links-active")
+  $('img.header__exitbtn').removeClass("header__exitbtn-active")
+})
 // }
 // for (i = 0; i < slider.length; i++) {
 //   $(slider[i]).toggleClass("active")
