@@ -1,4 +1,6 @@
 // Custom scripts
+
+
 var acc = document.getElementsByClassName("moreinfo__item");
 var i;
 

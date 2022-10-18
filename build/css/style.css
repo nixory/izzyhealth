@@ -125,6 +125,21 @@ body.locked {
   background-color: white;
 }
 
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplayRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplayBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("../fonts/ClashDisplaySemibold.woff") format("woff");
+}
+
 .header {
   background: #B9FF66;
   padding-top: 25px;
@@ -253,6 +268,10 @@ body.locked {
   padding-bottom: 59px;
   background-color: #121212;
   text-align: center;
+}
+
+.videoplayer video {
+  width: 714px;
 }
 
 .forwho {
@@ -945,7 +964,7 @@ body.locked {
 }
 
 @media only screen and (max-width: 945px) {
-  .videoplayer img {
+  .videoplayer video {
     width: 80%;
   }
 
